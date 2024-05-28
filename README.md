@@ -10,19 +10,19 @@ The API has several endpoints that let users get data in JSON format, such as a
 
 1. **"/ "** -> This default route will render the "index.html file" when the app launches. http://localhost:4001/
 
-![Screenshot 2023-06-24 214215](https://github.com/parthojha12/get-youtube-subscribers/assets/112394456/750906aa-378d-4e85-b006-fa605ffb4b10)
+![Screenshot 01](https://github.com/manishchauhan8222/getYoutubeSubscribers/blob/main/screenshots/Screenshot1.png)
 
 2. **"/subscribers "** -> This endpoint returns an array of all subscribers in the database. http://localhost:4001/subscribers
 
-![Screenshot 2023-06-24 214235](https://github.com/parthojha12/get-youtube-subscribers/assets/112394456/899f4536-7a7d-4857-8d98-298350e860f0)
+![Screenshot 02](https://github.com/manishchauhan8222/getYoutubeSubscribers/blob/main/screenshots/Screenshot2.png)
 
 3. **"/subscribers/names "** -> This endpoint returns an array of subscribers with only two fields, their name and subscribed channel. http://localhost:4001/subscribers/names
 
-![Screenshot 2023-06-24 214244](https://github.com/parthojha12/get-youtube-subscribers/assets/112394456/c18e2d44-8a81-4b63-a130-9cd7ff67fd64)
+![Screenshot 03](https://github.com/manishchauhan8222/getYoutubeSubscribers/blob/main/screenshots/Screenshot3.png)
 
 4. **"/subscribers/:id "** -> This returns the details of subscriber whose Id is provided in endpoint. http://localhost:4000/subscribers/:id
 
-![Screenshot 2023-06-24 214302](https://github.com/parthojha12/get-youtube-subscribers/assets/112394456/ef0e992e-621b-4dce-a452-3eaf5cc38271)
+![Screenshot 04](https://github.com/manishchauhan8222/getYoutubeSubscribers/blob/main/screenshots/Screenshot4.png)
 
 ## Application Folder Structure
 
@@ -72,4 +72,4 @@ Following dependencie are needed to run this application:
 
 ## Deployment
 
-Web Deployment : https://get-youtube-subscribers-almabetter-backend.vercel.app/
+Web Deployment : https://get-youtube-subscribers-blue.vercel.app/
